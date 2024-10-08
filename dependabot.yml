@@ -1,0 +1,12 @@
+version: 2
+updates:
+  -package-ecosystem: "pip"
+  directory: "/auth-service"
+  shcedule: 
+    interval: "daily"
+  labels:
+    -"traige required"
+  reviewers:
+    -"yeturilatha"
+  assignees:
+    -"harshapriya"
